@@ -33,3 +33,7 @@ EXECUTE dbo.CreateLogTriggerForUpdate @SchemaName = N'dbo', @TableName = N'Birds
 EXECUTE dbo.CreateLogTriggerForDelete @SchemaName = N'dbo', @TableName = N'Birds';
 ```
 ![dbo.Logs](https://github.com/stevanuz/sqllog-4all/blob/master/090418.png)
+
+## Resources
+1. https://sqlblogcasts.com/blogs/piotr_rodak/archive/2010/04/28/columns-updated.aspx
+2. https://docs.microsoft.com/en-us/sql/t-sql/functions/columns-updated-transact-sql
