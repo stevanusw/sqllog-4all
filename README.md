@@ -19,6 +19,7 @@ SQL Server audit infrastructure for INSERT, UPDATE and DELETE.
    * dbo.CreateLogTriggerForInsert
    * dbo.CreateLogTriggerForUpdate 
    * dbo.CreateLogTriggerForDelete
+3. Use DROP TRIGGER or DISABLE TRIGGER manually to uninstall them.
    
 ## Notes
 1. Audit table name is dbo.Logs,
